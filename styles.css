@@ -27,7 +27,8 @@ nav ul, nav li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
+  background-color: Maroon;
+  color: white;
 }
 
 @media only screen and (max-width: 815px) {
