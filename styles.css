@@ -1,0 +1,35 @@
+ * {
+  padding: 0;
+  margin: 0;
+}
+ 
+ nav {
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  background-color: darkred;
+  color: white;
+}
+
+nav ul, nav li {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+
+#welcome-section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar ul {
+    height: 50px;
+  }
